@@ -6,7 +6,7 @@
         "DB_URI_DIETITIAN": "postgresql://postgres:GcEVHLfPdacXGgU8pIcY@database-dieta1.cfw284moy69l.eu-central-1.rds.amazonaws.com:5432/postgres",
         "RAISE_EXCEPTIONS": true,
         "SQLALCHEMY_TRACK_MODIFICATIONS": false,
-        "JWT_SECRET_KEY": "x",
+        "JWT_SECRET_KEY": "f20adf0723d64a2f2088a0b4270fc715",
         "JWT_ACCESS_TOKEN_EXPIRES_HOURS": 1,
         "JWT_REFRESH_TOKEN_EXPIRES_DAYS": 30,
         "ERROR_INCLUDE_MESSAGE": true,

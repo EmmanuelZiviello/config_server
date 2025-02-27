@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Caricamento delle configurazioni da un file JSON
-CONFIG_FILE = "config_data.json"
+CONFIG_FILE = os.path.join(os.path.dirname(__file__), "config_data.json")
 
 def load_config():
     with open(CONFIG_FILE, "r") as file:
